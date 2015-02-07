@@ -1,0 +1,514 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>USA North West 2015</title>
+
+<link href="../styles/hendytrip.css" rel="stylesheet" type="text/css">
+<link href="../styles/usa2015.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />-->
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<!--<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>-->
+<!--<script type="text/javascript" src="../js/jquery-ui.custom.js"></script>-->
+<script src="../js/hendytrip.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <header>
+  	
+    <div id="header_banner">
+    	<h1> USA North West road trip 2015 </h1>
+    </div>
+  </header>
+
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><button id="nav_overview">Overview</button></li>
+      <li><button id="nav_day1">Day  1 (Sat)</button></li>
+      <li><button id="nav_day2">Day  2 (Sun)</button></li>
+      <li><button id="nav_day3">Day  3 (Mon)</button></li>
+      <li><button id="nav_day4">Day  4 (Tue)</button></li>
+      <li><button id="nav_day5">Day  5 (Wed)</button></li>
+      <li><button id="nav_day6">Day  6 (Thu)</button></li>
+      <li><button id="nav_day7">Day  7 (Fri)</button></li>
+      <li><button id="nav_day8">Day  8 (Sat)</button></li>
+      <li><button id="nav_day9">Day  9 (Sun)</button></li>
+      <li><button id="nav_day10">Day 10 (Mon)</button></li>
+      <li><button id="nav_day11">Day 11 (Tue)</button></li>
+      <li><button id="nav_day12">Day 12 (Wed)</button></li>
+      <li><button id="nav_day13">Day 13 (Thu)</button></li>
+      <li><button id="nav_day14">Day 14 (Fri)</button></li>
+      <li><button id="nav_day15">Day 15 (Sat)</button></li>
+      <li><button id="nav_day16">Day 16 (Sun)</button></li>
+	  <li><button id="nav_day17">Day 17 (Mon)</button></li>
+    </ul>
+
+  <!-- end .sidebar1 --></div>
+  <article class="content">
+  	<div id="content_overview" class="content_block">
+    <h2>2015 trip to NW USA - Seattle / Yellowstone / Boise </h2>
+    <p>
+    	The map below gives an indication of the planned route. 
+        <br />After arrival at 
+        <a href="http://airport-seatac.com/" target="_blank"> Seattle - Tacoma International Airport</a>
+        our stopovers will be at :
+        <ul class="citylist">
+        	<li><a href="javascript:void(null);" class="dest" id="DestSeattle">Seattle</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestAnacortes">Anacortes</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestWinthrop">Winthrop</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestSandpoint">Sandpoint</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestWhitefish">Whitefish</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestWestYellowstone">West Yellowstone</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestJacksonHole">Jackson Hole</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestBoise">Boise</a></li>
+            <li><a href="javascript:void(null);" class="dest" id="DestPortland">Portland</a></li>
+        </ul>
+    </p>
+    <br />
+    <p>
+    	Zoom in and click on the map for more details.
+    </p>
+    <!--<iframe width="780" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/edit?mid=zkadZ66ov4NE.kAWYDvenJNzw">
+    </iframe>-->
+    <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kAWYDvenJNzw" width="780" height="500"></iframe>
+    <br />
+    <small>Click
+    	<a href="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kAWYDvenJNzw" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">here</a>
+        </a>to view the 2015 tour of NW USA in a larger map
+       </small>
+  	</div>
+    
+    <div id="content_day1" class="content_block">
+    	<h2>Day 1 (Saturday) - Travel from Heathrow to Seattle</h2>
+      <div class="content_subject">
+   		<img src="../resources/Boeing777-300.jpg" width="100" height="64" alt="BA 777"> 
+        	<p>
+        	BA067
+        	<a href="http://www.britishairways.com/en-gb/information/about-ba/fleet-facts/boeing-777-300" target="_blank">777-300ER</a>. 
+        	<br />
+        	Seats <a href="http://www.thebasource.com/seatmaps/b777-300er/14f56j44w183y.html" target="_blank"> in WTP.</a>
+	        <br />
+    	    Depart London Heathrow on BA49 at 1530. 
+        	<br />
+        	Arrive Seattle 1705.  
+            <br />
+            <!--
+            Inflight entertainment for this flight is 
+            <a href="https://www.britishairways.com/travel/entertainhighlights/execclub/_gf/en_gb?from=LGW%2CLHR&to=DEN&class=worldtravellerplus&month=this&flightno&mtype=movie" target="_blank">here</a>.
+            -->
+        </div>
+      <div class="content_subject"><img src="../resources/Ford-Escape.jpg" width="118" height="64" alt="Ford Escape" />
+      	<p>
+      	Pick up SUV from Avis.
+        <br />
+        Avis Group F - Ford Escape or similar. 
+        <br />
+        (Other possibilities in this group: Hyundai Tuscan, Kia Sorrento, Kia Sportage, Nissan Rogue, Subaru Forrester, Subaru Outback, Toyota Rav4, Volkswagen Tiguan).
+       </p>
+      </div>
+      
+      <div class="content_subject">
+      	<p>
+      	Check in at the <a href="http://bestwesternwashington.com/hotels/best-western-plus-executive-inn-seattle" target="_blank">Best Western Executive Plus Inn</a>.
+      	</p>
+      </div>
+      
+      <div class="content_subject">
+      	<p>
+      	Nightcap and voodoo chicken wings at <a href="http://www.mcmenamins.com/581-mcmenamins-queen-anne-menus" target="_blank">Mcmenamins</a> just a short stroll from the hotel.
+		<br>Or maybe use Brella's Sports Bar at the hotel.
+      	</p>
+      </div>
+	  
+	  <div class="content_subject">
+        	<p />
+		<!--	
+        <iframe width="725" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.knuD20HmOHek"></iframe>
+		<br /><small>View <a href="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.knuD20HmOHek" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 1</a> in a larger map</small>
+		-->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d172290.75291509906!2d-122.3257734!3d47.5669515!3m2!1i1024!2i768!4f13.1!4m13!1i0!3e0!4m4!2sAvis%2C+SeaTac%2C+WA%2C+USA!3m2!1d47.4431686!2d-122.30156649999999!4m5!1s0x549015489883d027%3A0x7732e7052de67498!2sBest+Western+Plus+Executive+Inn%2C+200+Taylor+Ave+N%2C+Seattle%2C+WA+98109%2C+United+States!3m2!1d47.620042!2d-122.346046!5e0!3m2!1sen!2suk!4v1411310688312" width="725" height="450" frameborder="0" style="border:0"></iframe>
+		<br /><small>View <a href="https://goo.gl/maps/038l4" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 1</a> in a larger map</small>
+        
+        </div>
+    </div>
+    
+    <div id="content_day2" class="content_block">
+    	<h2>Day 2 (Sunday) - Acclimatise in Seattle</h2>
+        <div class="content_subject">
+        	<p>
+        	Plenty of beer &amp; food to be sampled.
+            <br />
+            For example:
+            <br />
+            <a href="http://www.pikebrewing.com/" target="_blank">Pike Brewing</a>
+            <br />
+            <a href="www.rockbottom.com/locations/seattle" target="_blank">Rock Bottom Brewery</a>
+			<br />
+            <a href="www.gordonbiersch.com/locations/seattle?action=view" target="_blank">Gordon Biersch</a>
+            <br />
+            <a href="http://www.pyramidbrew.com/" target="_blank">Pyramid Brewing</a>
+            <br />
+            <a href="http://www.elysianbrewing.com/" target="_blank">Elysian Brewing</a>
+        </div>
+		
+		<div class="content_subject">
+        	<p />
+        <iframe width="725" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kyjrVyGwdRNE"></iframe><br /><small>View <a href="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kyjrVyGwdRNE" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Seattle</a> in a larger map</small>
+        </div>
+        
+    </div>
+    
+    <div id="content_day3" class="content_block">
+    	<h2>Day 3 (Monday) - Labor Day - Drive to Anacortes (80 miles)</h2>
+        <div class="content_subject">
+            <p />
+            Pile in to the SUV and head off northwards to Anacortes.
+            <br />
+            The journey takes us north on I-5 to WA-20W. 
+			<br />
+			We'll be popping in to the <a href="http://www.futureofflight.org/" target="_blank">Boeing factory</a> on the way. Our tour is at 1030.
+			<br />
+            We prepare for our nautical adventure at the 
+            <a href="http://www.majesticinnandspa.com/" target="_blank">Majestic Inn</a>.
+            <br />
+            Evening cocktails and dinner can be taken at 
+            <a href="http://www.anacortesrockfish.com/" target="_blank">Rock Fish Grill and Brewery</a> or 
+			maybe <a href="http://www.brownlantern.com/" target="_blank">Brown Lantern Ale House</a>.
+        </div>
+		<div class="content_subject">
+        	<p />
+			<iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kPJ3BKuNl3o8" width="740" height="480"></iframe>
+        
+		<br /><small>View <a href="https://www.google.co.uk/maps/dir/Best+Western+Plus+Executive+Inn,+Taylor+Ave+N,+Seattle,+WA,+United+States/Future+of+Flight+Aviation+Center+%26+Boeing+Tour,+8415+Paine+Field+Blvd,+Mukilteo,+WA+98275,+United+States/Majestic+Inn+%26+Spa,+419+Commercial+Ave,+Anacortes,+WA+98221,+United+States/@48.0685441,-122.9854163,9z/data=!3m2!4b1!5s0x54900164f7cea285:0xb8080cf133d343d0!4m20!4m19!1m5!1m1!1s0x549015489883d027:0x7732e7052de67498!2m2!1d-122.346046!2d47.620042!1m5!1m1!1s0x54900164ecbcc685:0x64072bd20ae2a67b!2m2!1d-122.290181!2d47.921345!1m5!1m1!1s0x548579e12705e52f:0x9d5de961b6790b52!2m2!1d-122.612222!2d48.518558!3e0?hl=en">Day 3</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day4" class="content_block">
+    	<h2>Day 4 (Tuesday) - Boat trip from Anacortes</h2>
+        <div class="content_subject">
+        	<p />
+            Why are we going to Anacortes? Because that is where <a href="http://www.island-adventures.com/" target="_blank">Island Adventures</a> are waiting to take us on a boat among the 
+			San Juan Islands with a view to doing some whale spotting. Departure is at 1100.    	
+        </div>
+        
+    </div>
+    
+    <div id="content_day5" class="content_block">
+    	<h2>Day 5 (Wednesday) - Drive from Anacortes to Winthrop (148 miles)</h2>
+        <div class="content_subject">
+        	<p />Head east on <a href="https://en.wikipedia.org/wiki/Washington_State_Route_20" target="_blank">WA-20E</a> through 
+            <a href="http://www.nps.gov/noca/index.htm" target="_blank">North Cascades National Park</a>
+            towards Winthrop.
+             <br />
+             At Winthrop we'll stay for one night at the 
+             <a href="http://www.riversedgewinthrop.com/" target="_blank">The River's Edge Resort</a>
+             in Winthrop. This is a 3 bedroom cabin so plenty of room to relax for the night.
+             Refreshments are available at the <a href="http://www.oldschoolhousebrewery.com" target="_blank">Old Schoolhouse Brewery</a> which is just down the road.
+        </div>
+        <div class="content_subject">
+        	<p />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d1354792.4090674827!2d-122.50041906058601!3d48.45501521249909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!1s0x548579f0d93b6ec5%3A0x380c91f97017b982!2sSunrise+Inn+Villas+and+Suites%2C+905+20th+St%2C+Anacortes%2C+WA+98221%2C+United+States!3m2!1d48.505928999999995!2d-122.611548!4m5!1s0x549cafab3d7052e1%3A0xa25175403e45b276!2sRiver&#39;s+Edge+Resort%2C+115+Riverside+Ave%2C+Winthrop%2C+WA+98862%2C+United+States!3m2!1d48.479659!2d-120.186365!5e0!3m2!1sen!2suk!4v1412424788909" width="740" height="450" frameborder="0" style="border:0"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/Sunrise+Inn+Villas+and+Suites,+905+20th+St,+Anacortes,+WA+98221,+United+States/River%27s+Edge+Resort,+115+Riverside+Ave,+Winthrop,+WA+98862,+United+States/@48.4550152,-122.5004191,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x548579f0d93b6ec5:0x380c91f97017b982!2m2!1d-122.611548!2d48.505929!1m5!1m1!1s0x549cafab3d7052e1:0xa25175403e45b276!2m2!1d-120.186365!2d48.479659" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 5</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day6" class="content_block">
+    	<h2>Day 6 (Thursday) Winthrop to Sandpoint (254 miles)</h2>
+        <div class="content_subject">
+        	<p />
+            It's a long way from the west coast across the Rockies to Yellowstone. Because of that it's off for another one night stop in Sandpoint, Idaho.
+            <br />
+            Continue eastwards on WA-20 and over the <a href="http://scenicwa.com/article/sherman-pass-scenic-byway.html" target="_blank">Sherman Pass Scenic Byway</a> 
+            <br />
+            Our accommodation for 1 night is at
+            <a href="http://www.laquintasandpoint.com/" target="_blank">La Quinta Inn</a> which is handily placed for cocktails at
+			<a href="http://www.mickduffs.com/" target="_blank">Mick Duff's Brewing Company</a>.
+            <br />
+        </div>
+        <div class="content_subject">
+        	<p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kiAcm0UJc8D0" width="640" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps?f=d&amp;source=embed&amp;saddr=Hotel+Rio+Vista,+Riverside+Avenue,+Winthrop,+WA,+United+States&amp;daddr=48.6919191,-118.9423519+to:La+Quinta+Inn+Sandpoint,+415+Cedar+Street,+Sandpoint,+ID+83864,+United+States&amp;geocode=FQKy4wId0SfW-CEOquJkHvcXCimJJ5XYq6-cVDEOquJkHvcXCg%3BFc_65gIdcRXp-ClTnR6NzTidVDGja9EOt5Lcmw%3BFRCi4AIdCY8N-SnxgJzHyNZjUzHIki1XC6wcyQ&amp;aq=0&amp;oq=rio+vista&amp;sll=48.929718,-118.361206&amp;sspn=1.948848,4.251709&amp;hl=en&amp;mra=dvme&amp;mrsp=1&amp;sz=8&amp;via=1&amp;ie=UTF8&amp;ll=48.929718,-118.361206&amp;spn=1.948848,4.251709&amp;t=m" target="hendytrip_googlemap">Day 6</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day7" class="content_block">
+    	<h2>Day 7 (Friday) - Sandpoint to Whitefish (204 miles)</h2>
+        <div class="content_subject">
+        	<p />
+            More scenery as we head out on US-95N/US-2E towards Bonners Ferry close to the Canada border where we stay with US-2E as far as Libby, 
+			located in the <a href="http://www.fs.usda.gov/kootenai/" target="_blank">Kootenai National Forest</a>.
+			<br />
+			Then onto MT-37N beside 90 mile long <a href="https://en.wikipedia.org/wiki/Lake_Koocanusa" target="_blank">Lake Koocanusa</a>.
+			At Eureka (even closer to Canada) we head south on US-93S to Whitefish which will be our base for Glacier National Park.
+			<br />
+			Just for a change we'll spend 2 nights here at <a href="http://www.thepinelodge.com/Pine-Lodge-Home" target="_blank">Pine Lodge</a>.
+			<br />
+			Refreshments will be available at <a href="http://www.greatnorthernbrewing.com/" target="_blank">Great Northern Brewing</a>.
+        </div>
+		<div class="content_subject">
+        	<p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.k6mehYSgjI7Q" width="740" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/La+Quinta+Inn+Sandpoint,+415+Cedar+St,+Sandpoint,+ID+83864,+United+States/Pine+Lodge,+920+Spokane+Ave,+Whitefish,+Mt+59937,+United+States/@48.4566987,-116.5405556,8z/data=!4m19!4m18!1m10!1m1!1s0x5363d6c8c79c80f1:0xc91cac0b572d92c8!2m2!1d-116.551927!2d48.275984!3m4!1m2!1d-115.0942406!2d48.9053127!3s0x5365b56f2f4169bd:0xaa772925315e6bdd!1m5!1m1!1s0x53666835387fcbe7:0x24824a7bfa1e1763!2m2!1d-114.33565!2d48.403193!3e0?hl=en" target="hendytrip_googlemap">Day 7</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day8" class="content_block">
+    	<h2>Day 8 (Saturday) Whitefish and Glacier National Park</h2>
+        <div class="content_subject">
+        	<p />
+            Pile into the car for a day touring the heights and sites of 
+            <a href="http://www.nps.gov/glac/index.htm" target="_blank">Glacier National Park</a>. One of the reasons for all that time on the road.
+            <br />
+			Then back to Whitefish for cocktails and dinner.
+        </div>
+        
+    </div>
+    
+    <div id="content_day9" class="content_block">
+    	<h2>Day 9 (Sunday) Whitefish to West Yellowstone (385 miles)</h2>
+        <div class="content_subject">
+            <p />
+            After a lengthy and relaxing 2 days in Whitefish it's time to head for West Yellowstone through even more scenery. 
+            <br />
+            We'll spend a couple of nights at the <a href="http://www.threebearlodge.com/" target="_blank">Three Bear Lodge</a> in downtown West Yellowstone
+			just a couple of blocks from the west entrance to the National Park.
+            <br />
+            Outrageous though it may seem, there are no brewpubs in West Yellowstone.
+			<br />Our motel features a restaurant and The Grizzly Lounge which might be worth a look.
+			<br />It might also be worth checking out <a href="http://thebuffalobar.com/index.htm" target="_blank">The Buffalo Bar</a>
+			or the Slippery Otter Pub. 
+       </div>
+	   <div class="content_subject">
+        	<p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kPEZJ-3zrY-Q" width="740" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/Pine+Lodge,+920+Spokane+Ave,+Whitefish,+Mt+59937,+United+States/Three+Bear+Lodge,+217+Yellowstone+Ave,+West+Yellowstone,+Mt+59758,+United+States/@46.5102742,-115.0949379,7z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x53666835387fcbe7:0x24824a7bfa1e1763!2m2!1d-114.335553!2d48.403222!1m5!1m1!1s0x5351b9be0cceb07f:0xd71bda6a2724ce95!2m2!1d-111.103021!2d44.658921!3e0?hl=en" target="hendytrip_googlemap">Day 9</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day10" class="content_block">
+    	<h2>Day 10 (Monday) - Yellowstone</h2>
+        <div class="content_subject">
+            <p />
+            A day for mooching around <a href="http://www.nps.gov/yell/index.htm" target="_blank">Yellowstone National Park</a>.
+            <br />
+            Bison, bears, elk, moose and old geysers.
+        </div>
+    </div>
+    
+    <div id="content_day11" class="content_block">
+    	<h2>Day 11 (Tuesday) - West Yellowstone to Jackson Hole (154 miles)</h2>
+        <div class="content_subject">
+            <p />
+            Explore more of Yellowstone as we make our way to Jackson Hole by way of 
+			<a href="http://www.nps.gov/grte/index.htm" target="_blank">Grand Teton National Park</a>.
+            <br />
+            In trendy Jackson Hole we'll hole up at 
+            <a href="http://www.townsquareinns.com/antler-inn/" target="_blank">Antler Inn</a> for the night.
+			<br />
+			Nearby is Wyoming's oldest Brewery (or so they say anyway) <a href="http://www.snakeriverbrewing.com/" target="_blank">Snake River Brewing</a>.
+        </div>
+        <div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kd-mICXg5SJM" width="740" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/Three+Bear+Lodge,+217+Yellowstone+Ave,+West+Yellowstone,+Mt+59758,+United+States/Antler+Inn,+43+W+Pearl+Ave,+Jackson+Hole,+WY+83001,+United+States/@44.0659421,-111.5750372,9z/data=!4m17!4m16!1m5!1m1!1s0x5351b9be0cceb07f:0xd71bda6a2724ce95!2m2!1d-111.103021!2d44.658921!1m5!1m1!1s0x53531a6824cf1a0f:0x53f5d27f7d35ca19!2m2!1d-110.763043!2d43.478119!2m1!6e4!3e0!4e1?hl=en" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 11</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day12" class="content_block">
+    	<h2>Day 12 (Wednesday) - Jackson Hole to Boise (432 or 345 miles depending on route)</h2>
+        <div class="content_subject">
+            <p />
+            It's a long way back to the west coast so prepare for a long day on the road. An early start is certainly advised.
+            <br />
+			Head off westwards on WY-22W over Teton Pass at 8431 feet. This becomes ID-31W as far as US-26W for Idaho Falls.
+			<br />
+			Continue on US-26W to <a href="http://www.nps.gov/crmo/index.htm" target="_blank">Crater of the Moon</a>. Then to US-20W where we have a choice.
+			<br />
+			The shorter not so pretty way continues to I-84W and quickly to Boise.
+			<br />
+			The much nicer route goes north on ID-75N through Hailey and Ketchum (where Ernest Hemingway topped himself) to the 
+			<a href="https://en.wikipedia.org/wiki/Sawtooth_Range_%28Idaho%29" target="_blank">Sawtooth Range</a>.
+			<br />
+			Then through the wilderness of Idaho on ID-21S to Boise.
+			<br />
+			We'll stay at the <a href="http://themodernhotel.com/" target="_blank">Modern Hotel and Bar</a> in Boise.
+			<br />Refreshments are available 
+			at <a href="http://www.10barrel.com/" target="_blank">10 Barrel Brewing</a> or <a href="http://bcrfl.com/" target="_blank">Bittercreek Alehouse</a>
+			as well as at the hotel.
+        </div>
+		<div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kVuGCc7THcj4" width="740" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/Antler+Inn,+43+W+Pearl+Ave,+Jackson+Hole,+WY+83001,+United+States/The+Modern+Hotel+and+Bar,+1314+W+Grove+St,+Boise,+ID+83702,+United+States/@43.5897018,-115.2096898,9z/data=!4m24!4m23!1m15!1m1!1s0x53531a6824cf1a0f:0x53f5d27f7d35ca19!2m2!1d-110.763043!2d43.478119!3m4!1m2!1d-113.6270694!2d43.4151845!3s0x54aa151f8b22ab4d:0x25aad3fa2a309498!3m4!1m2!1d-115.6166735!2d44.0247951!3s0x54a8cd796fa484d9:0xcb8f894e586a8013!1m5!1m1!1s0x54aef8e63b44f6fd:0x3f2cd79be88d2811!2m2!1d-116.211119!2d43.61851!3e0" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 12</a> in a larger map</small>
+        </div>
+    </div>
+    
+    <div id="content_day13" class="content_block">
+    	<h2>Day 13 (Thursday) - Boise</h2>
+        <div class="content_subject">
+            <p />
+            At last a day of relaxation with no driving involved.
+            <br />
+            Wander around Boise and partake of the local beverages.
+            <br />
+            Additional to the hostelries mentioned on the previous day we might also be interested in
+			<a href="http://www.boisebrewing.com/" target="_blank">Boise Brewing</a>.
+        </div>
+        <div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.k3MaiVn8WRCE" width="740" height="480"></iframe>
+        </div>
+    </div>
+    
+    <div id="content_day14" class="content_block">
+    	<h2>Day 14 (Friday) - Boise to Portland (430 miles)</h2>
+        <div class="content_subject">
+            <p />
+            There's still a long way to go before we reach the west coast so we'll spend the day doing some interstate driving. 
+            <br />
+            I-84W pretty much follows the route of the Oregon Trail as it heads north west to the Columbia River, past Mount Hood and into Portland.
+            <br />
+			The last hotel of the trip in Portland is currently undecided. They are all quite pricey but it will certainly be within staggering distance of 
+			local watering holes.
+			<br />For the moment we'll assume that <a href="http://www.markspencer.com/" target="_blank">Mark Spencer</a> will be able to accommodate us at a reasonable price.
+			
+        </div>
+		<div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kNjky8Xu00RY" width="740" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/The+Modern+Hotel+and+Bar,+1314+W+Grove+St,+Boise,+ID+83702,+United+States/Mark+Spencer+Hotel,+United+States/@44.6998123,-121.6517388,7z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54aef8e63b44f6fd:0x3f2cd79be88d2811!2m2!1d-116.211119!2d43.61851!1m5!1m1!1s0x54950a030a91e631:0xba64b513db87439f!2m2!1d-122.682251!2d45.522102!3e0" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 14</a> in a larger map</small>
+        </div>		
+		
+    </div>
+	
+	<div id="content_day15" class="content_block">
+    	<h2>Day 15 (Saturday) - Portland </h2>
+        <div class="content_subject">
+            <p />
+            A day for sampling the delights of Portland.
+			<br />
+            <a href="http://www.deschutesbrewery.com/locations/portland" target="_blank">Deschutes Brewery</a>
+            <br />
+            <a href="http://www.rogue.com/" target="_blank">Rogue Brewery</a>
+            <br />
+            <a href="http://www.mcmenamins.com/crystalballroom" target="_blank">McMenamins Crystal Ballroom</a>
+            <br />
+            <a ref="http://www.rockbottom.com/locations/portland" target="_blank">Rock Bottom Brewery</a>
+			<br />
+            <a ref="http://www.fullsailbrewing.com/" target="_blank">Full Sail Brewing</a>
+			
+        </div>
+		<div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kIEdSJRI1AhM" width="740" height="480"></iframe>
+        </div>
+		
+    </div>
+    
+    <div id="content_day16" class="content_block">
+    	<h2>Day 16 (Sunday) - Portland to Seatac and depart for home (164 miles)</h2>
+        <div class="content_subject">
+            <p />
+            Well it has to come along in the end. Today is the day that we set off home. 
+			First of all we have to drive to <a href="www.portseattle.org/sea-tac/" target="_blank">Seatac</a>
+            <br />
+            Either just take I-5N or ponder a diversion if we fancy it.
+        </div>
+        <div class="content_subject">
+            <p />
+            We are on BA048 which departs at 1915. 
+			<br />
+			<a href="http://www.britishairways.com/en-gb/information/about-ba/fleet-facts/boeing-777-300" target="_blank">777-300ER</a>. 
+        	<br />
+        	Seats <a href="http://www.thebasource.com/seatmaps/b777-300er/14f56j44w183y.html" target="_blank"> in WTP.</a>
+			
+        </div>
+        <div class="content_subject">
+            <p />
+            <iframe src="https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kUrWEkBGblKM" width="640" height="480"></iframe>
+			<br /><small>View <a href="https://www.google.co.uk/maps/dir/Mark+Spencer+Hotel,+Portland,+OR,+USA/Seattle-Tacoma+International+Airport,+17801+International+Blvd,+Seattle,+WA+98158,+United+States/@46.4919376,-123.7030745,8z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54950a030a91e631:0xba64b513db87439f!2m2!1d-122.682251!2d45.522102!1m5!1m1!1s0x5490435542eafefd:0x99d3d9c4c7dc37b7!2m2!1d-122.308816!2d47.45025!3e0" style="color:#0000FF;text-align:left" target="hendytrip_googlemap">Day 16</a> in a larger map</small>
+        </div>
+		
+    </div>
+    
+    <div id="content_day17" class="content_block">
+    	<h2>Day 17 (Monday) - Arrive home</h2>
+        <div class="content_subject">
+            <p />
+            Arrive London Heathrow at 1230.
+            <br />
+            An afternoon snooze and then reassemble in the Royal Oak.
+        </div>
+    </div>
+    
+    <div id="dest_dialog" title="Dialog Box">
+    	<div id="dialogSeattle" class="divDialog">
+			 <p />
+			 <a href="http://bestwesternwashington.com/hotels/best-western-plus-executive-inn-seattle" target="_blank">Best Western Executive Plus Inn</a>
+			 <br />Nights 1,2 : $460			 
+		</div>
+		<div id="dialogAnacortes" class="divDialog">
+			 <p />
+			 <a href="http://www.majesticinnandspa.com/" target="_blank">Majestic Inn</a>"
+			 <br />Night 3,4 : $280		 
+		</div>
+		<div id="dialogWinthrop" class="divDialog">
+			 <p />
+			 <a href="http://www.riversedgewinthrop.com/" target="_blank">River's Edge Resort</a>
+			 <br />Night 5 : This is a 3 bedroom cabin (#20) for us all to share.
+			 <br />Total cost to be split among us is $283.
+		</div>
+		<div id="dialogSandpoint" class="divDialog">
+			 <p />
+			 <a href="http://www.laquintasandpoint.com/" target="_blank">La Quinta Inn</a>
+			 <br />Night 6 : $90	 
+		</div>
+		<div id="dialogWhitefish" class="divDialog">
+			 <p />
+			 <a href="http://www.thepinelodge.com/Pine-Lodge-Home" target="_blank">Pine Lodge</a>
+			 <br />Nights 7,8 : $300 
+		</div>
+		<div id="dialogWestYellowstone" class="divDialog">
+			 <p />
+			 <a href="http://www.threebearlodge.com/" target="_blank">Three Bear Lodge</a>
+			 <br />Nights 9,10 : $360
+		</div>
+		<div id="dialogJacksonHole" class="divDialog">
+			 <p />
+			 <a href="http://www.townsquareinns.com/antler-inn/" target="_blank">Antler Inn</a>
+			 <br />Night 11 : $160 
+		</div>
+		<div id="dialogBoise" class="divDialog">
+			 <p />
+			 <a href="http://themodernhotel.com/" target="_blank">Modern Hotel and Bar</a>
+			 <br />Nights 12,13 : $240 
+		</div>
+		<div id="dialogPortland" class="divDialog">
+			 <p />
+			 <a href="http://www.markspencer.com/" target="_blank">Mark Spencer</a>
+			 <br />Nights 14,15 : $480 
+		</div>
+    </div>
+    
+    <!-- end .content -->
+    </article>
+  <footer>
+    <p>
+    	Written by Dave Hendy
+    </p>
+    <address>
+      dave@hendy.me.uk
+    </address>
+  </footer>
+  <!-- end .container --></div>
+</body>
+</html>

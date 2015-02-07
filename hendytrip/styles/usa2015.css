@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+header {
+	background-color: #ADB96E;
+	height: 320px;
+	background-image: url(../resources/usa2015_banner.jpg);
+	background-repeat: no-repeat;
+	float: none;
+}
+#header_banner h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #F93;
+	margin-top: 30%;
+	margin-left: 24%;
+	width: 100%;
+}
+ul.citylist li {
+	float: left;
+	list-style: none;
+	width: 120px;
+	background-color: #FC0;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+	text-align: center;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+}
