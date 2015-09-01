@@ -17,7 +17,7 @@ header {
 ul.citylist li {
 	float: left;
 	list-style: none;
-	width: 120px;
+	width: 138px;
 	background-color: #FC0;
 	margin-right: 10px;
 	margin-bottom: 5px;
@@ -25,4 +25,16 @@ ul.citylist li {
 	text-align: center;
 	border-radius: 5px;
 	moz-border-radius: 5px;
+}
+#weather_div {
+	width:75%;
+	float:left;
+}
+#countdown_div {
+	width:20%;
+	height:100%;
+	background-color: #F70;
+	font-family: "Comic Sans MS", cursive;
+	line-height: 19px;
+	float:left;
 }
