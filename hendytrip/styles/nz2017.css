@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+header {
+	background-color: #ADB96E;
+	height: 320px;
+	background-image: url(../resources/nz2017/Banner.jpg);
+	background-repeat: no-repeat;
+	float: none;
+}
+#header_banner h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: black;
+	margin-top: 3%;
+	margin-left:0;
+	text-align: center;
+	width: 100%;
+}
+ul.citylist {
+	margin-top:20px;
+	width:25%;
+}
+ul.citylist li {
+	float: none;
+	list-style: none;
+	width: 138px;
+	background-color: #FC0;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+	text-align: center;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+}
+ul.citylist a, ul.citylist a:visited {
+	display: block;
+	text-decoration: none;
+}
+.citylist-div-right {
+	float:right;
+}
+#weather_div {
+	width:75%;
+	float:left;
+}
+#countdown_div {
+	width:20%;
+	height:100%;
+	background-color: #F70;
+	font-family: "Comic Sans MS", cursive;
+	line-height: 19px;
+	float:left;
+}
