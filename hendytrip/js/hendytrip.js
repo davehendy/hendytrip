@@ -1,7 +1,7 @@
 // JavaScript Document
 
 var overviewMap = {
-		iframeURL:"https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kAWYDvenJNzw",
+		iframeURL:"https://www.google.com/maps/d/embed?mid=1EpODpplLe2xqJytYpnswcs6BGUw",
 		largeURL:"https://mapsengine.google.com/map/embed?mid=zkadZ66ov4NE.kAWYDvenJNzw"
 			};
 var day1Map = {

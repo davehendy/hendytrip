@@ -161,6 +161,7 @@ ul.citylist li {
 	border-bottom-color: #C93;
 	border-left-color: #C93;
 	width: 95%;
+	min-height: 100px;
 	padding: 10px;
 	border-radius: 10px;
 	moz-border-radius: 10px;

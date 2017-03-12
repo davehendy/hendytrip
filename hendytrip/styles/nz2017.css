@@ -17,10 +17,10 @@ header {
 }
 ul.citylist {
 	margin-top:20px;
-	width:25%;
+	
 }
 ul.citylist li {
-	float: none;
+	float: left;
 	list-style: none;
 	width: 138px;
 	background-color: #FC0;
@@ -49,4 +49,11 @@ ul.citylist a, ul.citylist a:visited {
 	font-family: "Comic Sans MS", cursive;
 	line-height: 19px;
 	float:left;
+}
+#mapholder-div {
+	margin: auto;
+	width:95%;
+}
+.map_button {
+	background-color:red;
 }
