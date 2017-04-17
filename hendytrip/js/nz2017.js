@@ -35,7 +35,18 @@ var hendytripnz2017= (function() {
 			iframeURL:"https://www.google.com/maps/d/embed?mid=18-sYsRoULaHkDO0mDGEJRzT09Gc",
 			largeURL:"https://drive.google.com/open?id=18-sYsRoULaHkDO0mDGEJRzT09Gc&usp=sharing"
 	};
-	
+	var day16Map = {
+			iframeURL:"https://www.google.com/maps/d/embed?mid=1HGOeqjWnzfO1h3iO3TjAlmbMAag",
+			largeURL:"https://drive.google.com/open?id=1HGOeqjWnzfO1h3iO3TjAlmbMAag&usp=sharing"
+	};
+	var day17Map = {
+			iframeURL:"https://www.google.com/maps/d/embed?mid=1h6QJIZBzP4GJm9wVvv1Cz5WCfnU",
+			largeURL:"https://drive.google.com/open?id=1h6QJIZBzP4GJm9wVvv1Cz5WCfnU&usp=sharing"
+	};
+	var day18Map = {
+			iframeURL:"https://www.google.com/maps/d/embed?mid=1g8ROgzP4z_Aveg9SdpdF2anQA8Q",
+			largeURL:"https://drive.google.com/open?id=1g8ROgzP4z_Aveg9SdpdF2anQA8Q&usp=sharing"
+	};
 	var initContent = "sub/overview.html";
 	
 	function showContent(content){
