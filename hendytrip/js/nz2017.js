@@ -47,6 +47,14 @@ var hendytripnz2017= (function() {
 			iframeURL:"https://www.google.com/maps/d/embed?mid=1g8ROgzP4z_Aveg9SdpdF2anQA8Q",
 			largeURL:"https://drive.google.com/open?id=1g8ROgzP4z_Aveg9SdpdF2anQA8Q&usp=sharing"
 	};
+	var day20Map = {
+			iframeURL:"https://www.google.com/maps/d/embed?mid=1INC0jM7vJoy48RdeotRE_2fy3zQ",
+			largeURL:"https://drive.google.com/open?id=1INC0jM7vJoy48RdeotRE_2fy3zQ&usp=sharing"
+	};
+	var day24Map = {
+			iframeURL:"https://www.google.com/maps/d/embed?mid=1cLFb7o7taaXA2wGhBUkquOcNZxo",
+			largeURL:"https://drive.google.com/open?id=1cLFb7o7taaXA2wGhBUkquOcNZxo&usp=sharing"
+	};
 	var initContent = "sub/overview.html";
 	
 	function showContent(content){
